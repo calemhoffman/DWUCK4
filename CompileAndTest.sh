@@ -12,7 +12,7 @@ gfortran --std=legacy -c *.FOR
 
 cd ..
 
-gfortran *.o culib8/*.o -o DWUCK4.exe
+gfortran *.o culib8/*.o -o DWUCK4.exe -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
 
 ./DWUCK4.exe < DW4TST.DAT
 
