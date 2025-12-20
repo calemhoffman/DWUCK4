@@ -1,0 +1,23 @@
+ADWCK4.FOR:870:17:
+
+  870 |       CALL FORMF(UB(1,2),VB,3,LOPT,IK,IVB)
+      |                 1
+Warning: Actual argument contains too few elements for dummy argument 'u' (800/810) at (1)
+ADWCK4.FOR:95:17:
+
+   95 |       CALL FORMF(U(1,2),V(1,2),2,0,0,IVB)
+      |                 1
+Warning: Actual argument contains too few elements for dummy argument 'u' (800/810) at (1)
+ADWCK4.FOR:120:17:
+
+  120 |       CALL FORMF(UB,VB,3,LTRT(II),0,IVB)
+      |                 1
+Warning: Actual argument contains too few elements for dummy argument 'u' (800/810) at (1)
+ADWCK4.FOR:157:38:
+
+  157 |         CALL FNLOC(U,V,UB,VB,LTRT(II),Z,FNRNG,K)
+      |                                      1
+Warning: Actual argument contains too few elements for dummy argument 'bkin' (3/42) at (1)
+ld: library not found for -lSystem
+collect2: error: ld returned 1 exit status
+CompileAndTest.sh: line 17: ./DWUCK4.exe: No such file or directory
