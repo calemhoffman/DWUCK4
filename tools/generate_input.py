@@ -218,66 +218,95 @@ def format_state_block(state):
     control_code = FIXED_PARAMS['control_code_bound'] if is_bound else FIXED_PARAMS['control_code_unbound']
     bound_marker = 'bound ZR' if is_bound else 'unbound ZR'
     
-    # Card 1: Title
+    # Card 1: Title (80 chars fixed width)
     title = f"{control_code}    {FIXED_PARAMS['reaction']}    {int(state['Ex_keV'])} keV  {state['orbital']} {bound_marker}"
+    title = title.ljust(80)  # Pad to 80 characters
     lines.append(title)
     
-    # Card 2: Angles
-    lines.append(FIXED_PARAMS['angles'])
+    # Card 2: Angles (fixed width: +90.    +00.    +01.)
+    lines.append('+90.    +00.    +01.                                                            ')
     
-    # Card 3: Quantum numbers (LMAX, NLTR, L-transfer, 2*J)
+    # Card 3: Quantum numbers (LMAX, NLTR, L-transfer, 2*J) - Fixed width
     L = int(state['L'])
     j2 = int(state['j_times_2'])
-    qn_card = f"{FIXED_PARAMS['lmax_nltr']}+{L:02d}+{j2:02d}"
+    # For unbound: use LMAX=15 to avoid buffer, bound: LMAX=30
+    lmax = 15 if not is_bound else 30
+    qn_card = f"+{lmax:02d}+01+{L:02d}+{j2:02d}"
+    qn_card = qn_card.ljust(80)
     lines.append(qn_card)
     
-    # Card 4: Integration parameters (use NEGATIVE RMAX for unbound to trigger special mode)
+    # Card 4: Integration parameters (NEGATIVE RMAX for unbound!)
     rmax = -15.0 if not is_bound else 50.0
-    integration = f"+00.30  +000.0   {rmax:+05.1f}          0.7"
+    integration = f"+00.10  +00.    {rmax:+04.0f}."
+    integration = integration.ljust(80)
     lines.append(integration)
     
-    # Cards 5-8: Particle 1 (Deuteron) - energy-dependent
-    lines.append(FIXED_PARAMS['p1_card1'])
+    # Cards 5-8: Particle 1 (Deuteron) - Fixed width format
+    # Card 5: ELAB, masses, etc
+    p1_c1 = '+08.000  2.0     1.0    36.0    16.0    001.303                  2.0            '
+    lines.append(p1_c1)
     
-    # Deuteron optical potential with energy-dependent imaginary surface
+    # Cards 6-8: Deuteron optical potential (energy-dependent for entrance channel)
+    deut_params = calculate_deuteron_optical_model(8.0)
     Q = float(state['Q_MeV'])
-    deut_params = calculate_deuteron_optical_model(8.0)  # Beam energy
     W_D = calculate_deuteron_W_surface(Q)
     
-    # Card 6: Real volume and spin-orbit (from function)
-    lines.append(deut_params['card2'])
+    # Card 6: Volume real + volume imaginary
+    p1_c2 = f"+01.    -92.976 +01.150 +00.761         -01.602 +01.335 +00.525 "
+    lines.append(p1_c2)
     
-    # Card 7: Imaginary surface (Q-dependent)
-    d_card3 = f"+02.    +00.000 +00.000 +00.000         {W_D:+07.3f} +{deut_params['r_W']:06.3f} +{deut_params['a_W']:06.3f} "
-    lines.append(d_card3)
+    # Card 7: Surface imaginary (W_D varies with Q)
+    p1_c3 = f"+02.    +00.000 +00.000 +00.000         {W_D:+07.3f} +01.380 +00.736 "
+    lines.append(p1_c3)
     
-    # Card 8: Volume spin-orbit (fixed)
-    lines.append(FIXED_PARAMS['p1_card4'])
+    # Card 8: Spin-orbit
+    p1_c4 = f"-04.    -14.228 +00.972 +01.011         +00.000 +00.000 +00.000 "
+    lines.append(p1_c4)
     
-    # Card 9: Particle 2 (Proton) - Q-value
-    Q = float(state['Q_MeV'])
-    p2_card1 = f"{Q:+08.3f}  1.0     1.0    37.0    16.0    001.292                 +01.    "
-    lines.append(p2_card1)
-    
-    # Cards 10-12: Particle 2 optical potential (energy-dependent)
+    # Cards 9-12: Particle 2 (Proton) optical potential - energy-dependent
     E_proton = float(state['E_proton_MeV'])
     opt_pot = calculate_proton_optical_model(E_proton)
+    
+    # Card 9: Q-value line (MUST have proper sign formatting!)
+    # DWUCK4 expects Q-value to be positive if Q > 0, negative if Q < 0
+    # The format is +07.3f for negative, +06.3f for positive with leading space
+    # Example: +02.079, -00.123
+    if Q >= 0:
+        Q_formatted = f"+{Q:06.3f}"
+    else:
+        Q_formatted = f"{Q:+07.3f}" # Negative sign included
+    
+    p2_c1 = f"{Q_formatted}  1.0     1.0    37.0    16.0    001.292                 +01.            "
+    lines.append(p2_c1)
+    
+    # Cards 10-12: Proton optical potential
     lines.append(opt_pot['card2'])
     lines.append(opt_pot['card3'])
     lines.append(opt_pot['card4'])
     
-    # Card 13: Particle 3 (Bound state) - binding energy
+    # Cards 13-15: Particle 3 (Bound/unbound neutron state)
     E_bind = float(state['E_bind_MeV'])
-    p3_card1 = f"{E_bind:+08.3f}  {FIXED_PARAMS['p3_mass']}"
-    lines.append(p3_card1)
+    # DWUCK4 expects binding energy to be positive for bound states, negative for unbound
+    # The format is +06.3f for positive, +07.3f for negative with leading space
+    if E_bind >= 0:
+        E_bind_formatted = f"+{E_bind:06.3f}"
+    else:
+        E_bind_formatted = f"{E_bind:+07.3f}" # Negative sign included
     
-    # Card 14: Particle 3 potential
-    lines.append(FIXED_PARAMS['p3_card2'])
+    # Card 13: Binding energy line
+    p3_c1 = f"{E_bind_formatted}  1.0     0.0    36.0    16.0    +01.30                  +01.            "
+    lines.append(p3_c1)
     
-    # Card 15: Particle 3 quantum numbers (nodes, L, 2*J, fixed, rmax)
+    # Card 14: Bound state potential
+    p3_c2 = '-01.    -01.    +01.28  +00.65  24.0                                            '
+    lines.append(p3_c2)
+    
+    # Card 15: Quantum numbers with FISW=50.0 for unbound
     nodes = int(state['nodes'])
-    p3_card3 = f"+{nodes:02d}.0   +{L:02d}.0   +{j2:02d}.0   +01.0   +50.0   "
-    lines.append(p3_card3)
+    fisw = 50.0  # Non-zero for all states (let DWUCK4 decide)
+    p3_c3 = f"+{nodes:02.0f}.    +{L:02.0f}.    +{j2:02.0f}.    +01.    {fisw:+05.1f}   +00.    +00.00"
+    p3_c3 = p3_c3.ljust(80)
+    lines.append(p3_c3)
     
     return lines
 
