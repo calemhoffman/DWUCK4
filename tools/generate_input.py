@@ -16,9 +16,9 @@ from pathlib import Path
 
 # Fixed parameters (same for all states) for 36S(d,p)37S @ 8 MeV
 FIXED_PARAMS = {
-    'control_code': '1001000000200000',
+    'control_code_bound': '1001000000200000',    # For bound states (E < 0)
+    'control_code_unbound': '1011000030000000',  # For unbound states (E > 0)
     'reaction': '36S(d,p)@ 8MeV',
-    'bound_marker': 'bound ZR',
     'angles': '90.     0.0     1.     ',
     'lmax_nltr': '+30+01',
     'integration': '+00.30  +000.0   +50.0          0.7',
@@ -210,8 +210,16 @@ def format_state_block(state):
     """Generate DWUCK4 input block for a single state."""
     lines = []
     
+    # Determine if state is bound or unbound based on binding energy
+    E_bind = float(state['E_bind_MeV'])
+    is_bound = E_bind < 0
+    
+    # Select appropriate control code and marker
+    control_code = FIXED_PARAMS['control_code_bound'] if is_bound else FIXED_PARAMS['control_code_unbound']
+    bound_marker = 'bound ZR' if is_bound else 'unbound ZR'
+    
     # Card 1: Title
-    title = f"{FIXED_PARAMS['control_code']}    {FIXED_PARAMS['reaction']}    {int(state['Ex_keV'])} keV  {state['orbital']} {FIXED_PARAMS['bound_marker']}"
+    title = f"{control_code}    {FIXED_PARAMS['reaction']}    {int(state['Ex_keV'])} keV  {state['orbital']} {bound_marker}"
     lines.append(title)
     
     # Card 2: Angles
@@ -223,8 +231,10 @@ def format_state_block(state):
     qn_card = f"{FIXED_PARAMS['lmax_nltr']}+{L:02d}+{j2:02d}"
     lines.append(qn_card)
     
-    # Card 4: Integration parameters
-    lines.append(FIXED_PARAMS['integration'])
+    # Card 4: Integration parameters (use NEGATIVE RMAX for unbound to trigger special mode)
+    rmax = -15.0 if not is_bound else 50.0
+    integration = f"+00.30  +000.0   {rmax:+05.1f}          0.7"
+    lines.append(integration)
     
     # Cards 5-8: Particle 1 (Deuteron) - energy-dependent
     lines.append(FIXED_PARAMS['p1_card1'])
