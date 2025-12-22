@@ -27,7 +27,7 @@ c     Store fundamental constants
       AMU=931.495
       FSCON=137.036
       CHSQ=HBARC/FSCON
-      IBUFF=3200
+      IBUFF=4000
       IFIRST=0
 C
  1001 CONTINUE

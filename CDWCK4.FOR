@@ -32,7 +32,7 @@ c
       Common/array1/space1(ispc1)
       Common/array2/space2(ispc2)
 c
-      DIMENSION UB(kmax),ff(10),buffr(1600)
+      DIMENSION UB(kmax),ff(10),buffr(2000)
      1,         DRX(2), LPTBL(lmax/2), S(lmax), WT(5)
       EQUIVALENCE (space1(   1), buffr), (space0(   1), D)
      2           ,(space0( 401), H), (space0(1201), C)
