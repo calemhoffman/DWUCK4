@@ -18,13 +18,13 @@ from pathlib import Path
 FIXED_PARAMS = {
     'control_code_bound': '1001000000200000',    # For bound states (E < 0)
     'control_code_unbound': '1011000030000000',  # For unbound states (E > 0)
-    'reaction': '36S(d,p)@ 8MeV',
+    'reaction': '36S(d,p)@ 16MeV',
     'angles': '90.     0.0     1.     ',
     'lmax_nltr': '+30+01',
     'integration': '+00.30  +000.0   +50.0          0.7',
     
     # Particle 1 (Deuteron)
-    'p1_card1': '+08.000  2.0     1.0    36.0    16.0    001.303                  2.0    ',
+    'p1_card1': '+16.000  2.0     1.0    36.0    16.0    001.303                  2.0    ',
     'p1_card2': '+01.    -92.976 +01.150 +00.761         -01.602 +01.335 +00.525 ',
     'p1_card3': '+02.    +00.000 +00.000 +00.000         +42.340 +01.380 +00.736 ',
     'p1_card4': '-04.    -14.228 +00.972 +01.011         +00.000 +00.000 +00.000 ',
@@ -123,7 +123,7 @@ def calculate_deuteron_optical_model(E_deuteron):
     # Deuteron in exit channel has beam energy minus recoil
     # Approximation: E_d ≈ E_beam (8 MeV for entrance, varies in exit)
     
-    E_ref = 8.0  # Reference beam energy
+    E_ref = 16.0  # Reference beam energy
     W_D_ref = 42.340  # Imaginary surface depth at reference
     
     # From state 1 to state 2 comparison:
@@ -247,7 +247,7 @@ def format_state_block(state):
     lines.append(p1_c1)
     
     # Cards 6-8: Deuteron optical potential (energy-dependent for entrance channel)
-    deut_params = calculate_deuteron_optical_model(8.0)
+    deut_params = calculate_deuteron_optical_model(16.0)
     Q = float(state['Q_MeV'])
     W_D = calculate_deuteron_W_surface(Q)
     
