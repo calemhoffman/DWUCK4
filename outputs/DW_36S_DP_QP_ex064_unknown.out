@@ -1,0 +1,71 @@
+1********************DWUCK4 AT YOUR SERVICE********************
+
+ installed         Mon May 21 11:05:50 1990                
+ today is          Tue Jan 27 10:58:10 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    *******************************************************
+                    *                                                     *
+                    * User     : calemhoffman                             *
+                    * Directory: <- /Users/calemhoffman/Documents/GitHub/ *
+                    * Input    : Standard Input                           *
+                    * Output   : Standard Output                          *
+                    *                                                     *
+                    *******************************************************
+1
+0DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0    36S(d,p)@ 16MeV    646 keV  unknown bound QP                
+ 36S(d,p)@ 16MeV    646 keV  unknown bound QP                
+ Adwck4 entered
+0ANGLE DATA          THETN=  60.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   6
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX =  50.0000   VCE  =   0.0000   FNRNG=   0.0000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  16.0000   RC0  =   1.1500   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  36.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =  16.0000   PNLOC=   0.0000
+ 
+ DERIVED DATA        ECM  =  15.1579   RC   =   3.7972   RHO  =   4.4512
+                     K    =   1.1722   ETA  =   0.8909   DR   =   0.1000
+0POTENTIAL PARAMETERS
+
+STDERR:
+At line 57 of file POTS.FOR (unit = 5, file = 'stdin')
+Fortran runtime error: Bad value during floating point read
+
+Error termination. Backtrace:
+#0  0x1048e1b07
+#1  0x1048e26a7
+#2  0x1048e2f83
+#3  0x1049ca05b
+#4  0x1049cd6bb
+#5  0x1049ceaa3
+#6  0x1046d815b
+#7  0x1046c041f
+#8  0x1046c17a3
+#9  0x1046cdcc7
+#10  0x1046cdd73
