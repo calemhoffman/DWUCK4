@@ -1,0 +1,871 @@
+1********************DWUCK4 AT YOUR SERVICE********************
+
+ installed         Mon May 21 11:05:50 1990                
+ today is          Mon Mar 16 13:48:46 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    *******************************************************
+                    *                                                     *
+                    * User     : calemhoffman                             *
+                    * Directory: <- /Users/calemhoffman/Documents/GitHub/ *
+                    * Input    : Standard Input                           *
+                    * Output   : Standard Output                          *
+                    *                                                     *
+                    *******************************************************
+1
+0DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=0.60 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=0.60 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  13.2862   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -2.3210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  12.1790   RC   =   3.5094   RHO  =   2.5649
+                     K    =   0.7309   ETA  =   0.1728   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=0.60 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   0.0960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   0.0960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   0.0960   RC   =   2.8008   RHO  =   0.1810
+                     K    =   0.0646   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 3.2552E-17  MEV     VOLUME TERM =  9.1276E+16     SURFACE TERM =  9.7387E+01
+                     V    =  50.0000   DET  = 245.9619   NODES=   0.0000   RM   =   2.6920   E    =   0.0960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=0.80 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=0.80 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  13.0680   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -2.5210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  11.9790   RC   =   3.5094   RHO  =   2.5437
+                     K    =   0.7248   ETA  =   0.1743   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=0.80 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   0.2960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   0.2960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   0.2960   RC   =   2.8008   RHO  =   0.3178
+                     K    =   0.1135   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 1.6948E-16  MEV     VOLUME TERM =  3.0785E+16     SURFACE TERM =  2.9964E+01
+                     V    =  50.0000   DET  = 250.0011   NODES=   0.0000   RM   =   2.6920   E    =   0.2960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=1.00 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=1.00 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  12.8498   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -2.7210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  11.7790   RC   =   3.5094   RHO  =   2.5224
+                     K    =   0.7188   ETA  =   0.1757   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=1.00 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   0.4960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   0.4960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   0.4960   RC   =   2.8008   RHO  =   0.4114
+                     K    =   0.1469   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 3.5412E-16  MEV     VOLUME TERM =  1.9072E+16     SURFACE TERM =  1.6914E+01
+                     V    =  50.0000   DET  = 254.1059   NODES=   0.0000   RM   =   2.6920   E    =   0.4960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=1.20 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=1.20 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  12.6316   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -2.9210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  11.5790   RC   =   3.5094   RHO  =   2.5009
+                     K    =   0.7126   ETA  =   0.1772   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=1.20 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   0.6960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   0.6960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   0.6960   RC   =   2.8008   RHO  =   0.4873
+                     K    =   0.1740   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 5.6795E-16  MEV     VOLUME TERM =  1.4086E+16     SURFACE TERM =  1.1365E+01
+                     V    =  50.0000   DET  = 258.2778   NODES=   0.0000   RM   =   2.6920   E    =   0.6960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=1.40 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=1.40 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  12.4135   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -3.1210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  11.3790   RC   =   3.5094   RHO  =   2.4792
+                     K    =   0.7064   ETA  =   0.1788   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=1.40 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   0.8960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   0.8960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   0.8960   RC   =   2.8008   RHO  =   0.5529
+                     K    =   0.1974   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 8.0168E-16  MEV     VOLUME TERM =  1.1323E+16     SURFACE TERM =  8.2940E+00
+                     V    =  50.0000   DET  = 262.5184   NODES=   0.0000   RM   =   2.6920   E    =   0.8960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=1.60 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=1.60 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  12.1953   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -3.3210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  11.1790   RC   =   3.5094   RHO  =   2.4573
+                     K    =   0.7002   ETA  =   0.1804   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=1.60 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   1.0960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   1.0960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   1.0960   RC   =   2.8008   RHO  =   0.6115
+                     K    =   0.2183   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 1.0496E-15  MEV     VOLUME TERM =  9.5646E+15     SURFACE TERM =  6.3443E+00
+                     V    =  50.0000   DET  = 266.8296   NODES=   0.0000   RM   =   2.6920   E    =   1.0960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=1.80 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=1.80 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  11.9771   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -3.5210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  10.9790   RC   =   3.5094   RHO  =   2.4353
+                     K    =   0.6939   ETA  =   0.1820   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=1.80 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   1.2960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   1.2960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   1.2960   RC   =   2.8008   RHO  =   0.6650
+                     K    =   0.2374   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 1.3081E-15  MEV     VOLUME TERM =  8.3459E+15     SURFACE TERM =  4.9970E+00
+                     V    =  50.0000   DET  = 271.2131   NODES=   0.0000   RM   =   2.6920   E    =   1.2960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=2.00 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=2.00 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  11.7589   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -3.7210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  10.7790   RC   =   3.5094   RHO  =   2.4130
+                     K    =   0.6876   ETA  =   0.1837   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=2.00 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   1.4960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   1.4960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   1.4960   RC   =   2.8008   RHO  =   0.7144
+                     K    =   0.2551   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 1.5744E-15  MEV     VOLUME TERM =  7.4502E+15     SURFACE TERM =  4.0105E+00
+                     V    =  50.0000   DET  = 275.6706   NODES=   0.0000   RM   =   2.6920   E    =   1.4960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=2.20 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=2.20 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  11.5407   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -3.9210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  10.5790   RC   =   3.5094   RHO  =   2.3905
+                     K    =   0.6812   ETA  =   0.1854   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=2.20 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   1.6960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   1.6960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   1.6960   RC   =   2.8008   RHO  =   0.7607
+                     K    =   0.2716   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 1.8467E-15  MEV     VOLUME TERM =  6.7629E+15     SURFACE TERM =  3.2574E+00
+                     V    =  50.0000   DET  = 280.2042   NODES=   0.0000   RM   =   2.6920   E    =   1.6960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=2.40 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=2.40 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  11.3225   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -4.1210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  10.3790   RC   =   3.5094   RHO  =   2.3678
+                     K    =   0.6747   ETA  =   0.1872   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=2.40 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   1.8960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   1.8960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   1.8960   RC   =   2.8008   RHO  =   0.8043
+                     K    =   0.2872   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 2.1236E-15  MEV     VOLUME TERM =  6.2179E+15     SURFACE TERM =  2.6637E+00
+                     V    =  50.0000   DET  = 284.8157   NODES=   0.0000   RM   =   2.6920   E    =   1.8960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=2.60 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=2.60 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  11.1044   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -4.3210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =  10.1790   RC   =   3.5094   RHO  =   2.3448
+                     K    =   0.6682   ETA  =   0.1890   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=2.60 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   2.0960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   2.0960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   2.0960   RC   =   2.8008   RHO  =   0.8457
+                     K    =   0.3019   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 2.4043E-15  MEV     VOLUME TERM =  5.7745E+15     SURFACE TERM =  2.1840E+00
+                     V    =  50.0000   DET  = 289.5072   NODES=   0.0000   RM   =   2.6920   E    =   2.0960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=2.80 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=2.80 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  10.8862   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -4.5210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   9.9790   RC   =   3.5094   RHO  =   2.3217
+                     K    =   0.6616   ETA  =   0.1909   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=2.80 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   2.2960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   2.2960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   2.2960   RC   =   2.8008   RHO  =   0.8851
+                     K    =   0.3160   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 2.6880E-15  MEV     VOLUME TERM =  5.4058E+15     SURFACE TERM =  1.7885E+00
+                     V    =  50.0000   DET  = 294.2808   NODES=   0.0000   RM   =   2.6920   E    =   2.2960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0    10Be(d,p)11Be Ex=3.00 AK UNB LMAX30 RMAX30 V6               
+ 10Be(d,p)11Be Ex=3.00 AK UNB LMAX30 RMAX30 V6               
+ Adwck4 entered
+0ANGLE DATA          THETN=  61.0000   THET1=   0.0000   DTHET=   1.0000   A-ANG=   0.0000   B-ANG=   0.0000
+0CARD SET 3 DATA     LMAX =  30          LTR=   1
+                     NLTR =   1        2*JTR=   3
+0CARD SET 4 DATA     DRF  =   0.1000   RZ   =   0.0000   RMAX = -30.0000   VCE  =   0.0000   FNRNG=   0.0000
+                     AMASS=   0.8000
+ PARTICLE DATA 
+0PARTICLE 1*******************************************************************************************************************
+ INPUT DATA          ELAB =  17.4000   RC0  =   1.3030   AC   =   0.0000   2*STR=   2.0000
+                     MASSP=   2.0000   MASST=  10.0000   Q    =   0.0000
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   2.0000
+ 
+ DERIVED DATA        ECM  =  14.5000   RC   =   2.8072   RHO  =   3.0186
+                     K    =   1.0753   ETA  =   0.2136   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -88.7440   R0RL =   1.1480   A RL =   0.7460   R RL =   2.4733   VSOR =   0.0000
+                     V IM =  -2.1860   R0IM =   1.3510   A IM =   0.6400   R IM =   2.9106   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  27.3930   R0IM =   1.4050   A IM =   0.6650   R IM =   3.0270   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -14.2280   R0RL =   0.9720   A RL =   1.0110   R RL =   2.0941   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+0PARTICLE 2*******************************************************************************************************************
+ INPUT DATA          ELAB =  10.6680   RC0  =   1.5780   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  11.0000   Q    =  -4.7210
+                     ZP   =   1.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   9.7790   RC   =   3.5094   RHO  =   2.2983
+                     K    =   0.6549   ETA  =   0.1929   DR   =   0.0073
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL = -56.2800   R0RL =   1.1220   A RL =   0.6760   R RL =   2.4953   VSOR =   0.0000
+                     V IM =  -1.1170   R0IM =   1.1220   A IM =   0.6760   R IM =   2.4953   VSOI =   0.0000   POWR =   0.0000
+ NX=2 SURFACE W-S    V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =  20.7710   R0IM =   1.3070   A IM =   0.5240   R IM =   2.9067   VSOI =   0.0000   POWR =   0.0000
+ NX=4 L*S VOLUME     V RL = -21.8760   R0RL =   0.8940   A RL =   0.5900   R RL =   1.9882   VSOR =   0.0000
+                     V IM =   0.8640   R0IM =   0.8940   A IM =   0.5900   R IM =   1.9882   VSOI =   0.0000   POWR =   0.0000
+110Be(d,p)11Be Ex=3.00 AK UNB LMAX30 RMAX30 V6                  0/ 0/ 0
+0FORM FACTOR DATA 
+0PARTICLE 3*******************************************************************************************************************
+ INPUT DATA          ELAB =   2.4960   RC0  =   1.3000   AC   =   0.0000   2*STR=   1.0000
+                     MASSP=   1.0000   MASST=  10.0000   Q    =   2.4960
+                     ZP   =   0.0000   ZT   =   4.0000   PNLOC=   1.0000
+ 
+ DERIVED DATA        ECM  =   2.4960   RC   =   2.8008   RHO  =   0.9228
+                     K    =   0.3295   ETA  =   0.0000   DR   =   0.0080
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME  W-S    V RL =  28.3480   R0RL =   1.2500   A RL =   0.6500   R RL =   2.6930   VSOR =  24.0000
+                     V IM =   1.1000   R0IM =   0.6500   A IM =   0.0000   R IM =   1.4004   VSOI =   0.0000   POWR =   0.0000
+ 
+                     NODES=   0.0000   L    =   1.0000   2*J  =   3.0000   2*S  =   1.0000   FISW =   0.0000
+ 
+0BOUND STATE SEARCH FAILS IN 32 ITERATIONS
+0SINGLE PARTICLE WIDTH = 2.9743E-15  MEV     VOLUME TERM =  5.0939E+15     SURFACE TERM =  1.4570E+00
+                     V    =  50.0000   DET  = 299.1387   NODES=   0.0000   RM   =   2.6920   E    =   2.4960   ITER.=  33
+0Non-locality correction is applied, parameter =   2.000
+0Non-locality correction is applied, parameter =   1.000
+0*****  Warning *****  LMAX too large for reliable calculation of unbound stripping or coulomb excitation cases.  Increase RMAX 
+0                    LMAX =  30        NSTEP= 300        NLTR =   1
+1DWUCK4-DISTORTED WAVES U.COLORADO- PC-VERSION  12/Jan /1995
+ Elapsed time in seconds =   0.00
+ Elapsed time in seconds =   0.00
+0CONTROL INTEGERS
+  1 2 3 4 5 6 7 8 9 A B C D E F G H I J K    RUN IDENTIFICATION                                             0/00/00   0.00.00
+  9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0    END OF DATA for DWUCK4                                      
